@@ -23,7 +23,7 @@ int main(void)
 
     if (LFirst(&list, &data))
     {
-        int sum = 0;
+        int sum = data;
         while (LNext(&list, &data))
             sum += data;
 
